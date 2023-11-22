@@ -5,7 +5,6 @@ using namespace std;
 int arr[100001]; //누적 합 배열 
 
 int main() {
-
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
