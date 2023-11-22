@@ -28,7 +28,8 @@ int main() {
 	int start = 1;
 	int end = K - 1;
 
-	int nums = answer - arr[0]; //그룹에 속한 데이터들의 합 
+	//그룹에 속한 데이터들의 합 
+	int nums = answer - arr[0]; 
 
 	while (start <= N - K) {
 		if (end >= N) end = N - 1;
