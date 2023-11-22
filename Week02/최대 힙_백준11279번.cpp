@@ -21,7 +21,7 @@ int main() {
 			q.push(arr[i]);
 		}
 		else { //입력값이 0인 경우 
-			if (q.empty())cout << "0" << "\n"; //만약 우선순위 큐가 비워있으면 
+			if (q.empty()) cout << "0" << "\n"; //만약 우선순위 큐가 비워있으면 
 			else {
 				cout << q.top() << "\n"; //우선순위 큐 첫번째 값 출력 
 				q.pop();
