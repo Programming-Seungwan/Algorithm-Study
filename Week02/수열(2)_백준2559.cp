@@ -24,10 +24,11 @@ int main() {
 		answer += arr[i];
 	}
 
+	//포인터 초기 설정 
 	int start = 1;
 	int end = K - 1;
 
-	int nums = answer - arr[0];//그룹에 속한 데이터들의 합 
+	int nums = answer - arr[0]; //그룹에 속한 데이터들의 합 
 
 	while (start <= N - K) {
 		if (end >= N) end = N - 1;
@@ -40,7 +41,7 @@ int main() {
 			end++; //end 포인터 증가 
 			nums += arr[end];
 		}
-		else{ //그룹의 넓이가 k보다 크거나 같을 경우 
+		else{  //그룹의 넓이가 k보다 크거나 같을 경우 
 			nums -= arr[start]; 
 			start++;
 		}
@@ -49,5 +50,4 @@ int main() {
 	
 
 	return 0;
-	
 }
