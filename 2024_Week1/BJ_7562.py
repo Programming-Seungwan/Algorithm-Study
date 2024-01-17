@@ -26,6 +26,7 @@ def answer(I):
                 if 0<=nx<I and 0<=ny<I and graph[nx][ny]==0:
                     q.append((nx,ny))
                     graph[nx][ny]=graph[cx][cy]+1
+                    
     print(bfs())
 # 실행    
 for _ in range(N):
