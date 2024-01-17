@@ -36,8 +36,7 @@ def countNum(): # 총괄 함수
                 grid[i][j]=2
                 bfs(i,j)
                 num+=1
-    print(num)
-                
+    print(num)             
 # 실행  
 for _ in range(T):
     countNum()
