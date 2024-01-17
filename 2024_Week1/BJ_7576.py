@@ -9,7 +9,7 @@ input=sys.stdin.readline
 M,N=map(int,input().split())
 graph=[list(map(int,input().split())) for _ in range(N)]
 
-# !!!!!!!! 좀 더 공부 필요 !!!!!!!!!
+# !!!!!!!! 더 공부 필요 !!!!!!!!!
 def answer():
     day=0
     q=deque()
