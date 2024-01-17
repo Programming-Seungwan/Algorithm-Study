@@ -1,4 +1,4 @@
-# 1012유기농배추
+# 1012 유기농배추
 # https://www.acmicpc.net/problem/1012
 
 import sys
