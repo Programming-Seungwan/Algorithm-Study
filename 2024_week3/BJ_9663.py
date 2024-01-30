@@ -5,7 +5,7 @@ import sys
 input=sys.stdin.readline
 
 N = int(input())
-col = [0] * (N + 1)
+col = [0]*(N + 1)
 count=0
 
 def promising(i, col):
