@@ -8,6 +8,7 @@ int n, d;
 int arr[10001];
 vector<pair<int, int>> v[10001];
 
+//다익스트라 + dp 문제 
 
 int main() {
 
