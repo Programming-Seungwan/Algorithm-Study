@@ -12,6 +12,5 @@ for i in range(n - 1, -1, -1): # 끝에서부터 돌아오기
     if i + list[i][0] <= n:  # 퇴사 전 상담 완료 가능
         memo[i] = max(memo[i + 1], memo[i + list[i][0]] + list[i][1])
     else:
-        memo[i]=memo[i+1]
-      
+        memo[i]=memo[i+1]  
 print(memo[0])
