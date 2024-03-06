@@ -30,7 +30,6 @@ def one_year():
     for x, y, m in melt_index:
         iceberg[x][y] = max(iceberg[x][y] - m, 0)  # 음수가 되면 0으로 바꿈.
 
-
 # bfs
 def bfs(x, y, visited):
     q = deque()
@@ -49,7 +48,6 @@ def bfs(x, y, visited):
             ):
                 visited[next_x][next_y] = True
                 q.append((next_x, next_y))
-
 
 # 빙산 쪼개진 상태 체크
 year = 0
