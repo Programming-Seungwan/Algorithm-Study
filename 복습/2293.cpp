@@ -3,8 +3,6 @@ using namespace std;
 
 int n, k;
 int dp[10001];
-int arr[10001];
-
 
 int main() {
 
@@ -21,6 +19,7 @@ int main() {
     }
 
     dp[0] = 1; // 아무 동전도 선택하지 않은 경우
+    
     for (int i = 0; i < v.size(); i++) {
         for (int j = v[i]; j <= k; j++) {
             dp[j] += dp[j - v[i]];
