@@ -19,4 +19,5 @@ def dfs(num):
             dfs(i+1)
             result.pop()
             visited[i]=False
+            
 dfs(1)
